@@ -1,0 +1,268 @@
+@media screen and (max-width: 820px) {
+    .smallHead{
+        font-size: 10px;
+    }
+    .heroImg{
+        height:60vh;
+    }
+    .mainSec>.imgText{
+        font-size: 36px;
+    }
+    .mainText>span{
+        font-size: 20px;
+    }
+    .serviceSec>.title, .aboutSec>.title, .contactSec>.title{
+        font-size:18px;
+    }
+    
+    .textSec>.title{
+        font-size: 16px;
+        margin-top: 100px;
+    }
+    .textSec>.firstWord{
+        font-size: 36px;
+    }
+    .textSec>.para{
+        font-size: 16px;
+    }
+
+    .serviceSec{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .card>.cardImg{
+        width:80%;
+        margin-left:10%;
+    }
+    .card>.cardTitle{
+        font-size: 16px;
+    }
+
+    .card>.cardBody{
+        font-size:14px;
+    }
+    
+    .parallax{
+        min-height:300px;
+        margin-bottom:80px;
+    }
+    .aboutSec>.parallax>.text>.para{
+        font-size: 14px;
+    }
+    
+    .form>.inputGrp>label{
+        font-size: 14px;
+    }
+
+    .form>.inputGrp>input, .form>.inputGrp>textarea{
+        font-size: 14px;
+    }
+
+    .form>.inputGrp>.submitBtn{
+        font-size: 16px;
+    }
+
+    .contactSec>.contact{
+        display: block;
+    }
+    .contactForm {
+        width:90%;
+    }
+
+    .contactMap{
+        width:100%;
+    }
+    .contactMap>.map{
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+
+    .footerContact>.location>.title{
+        font-size: 16px;
+    }
+
+    .footerContact>.location>.text, .footerContact>.contactDiv>.text{
+        font-size: 14px;
+    }
+    .footerContact>.contactDiv>.text{
+        font-size:20px;
+    }
+    .footerMenu>.footMenuList>a{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .smallHead{
+        font-size: 10px;
+        display: flex;
+        justify-content: end;
+    }
+    .smallHead>.address{
+        display:none;
+    }
+    .bigHead>.menu-btn{
+        display: block;
+        margin-right: 20px;
+    }
+    .bigHead>.menuList{
+       position: fixed;
+       display:block;
+       top:0;
+       left:0;
+       height:110vh;
+       width:75vw;
+       margin:0;
+       padding:20px;
+       padding-top:50px;
+       background-color: var(--light-shadow);
+       z-index:100;
+       transition: all 0.3s;
+    }
+    .openMenuBtn{
+        cursor: pointer;
+    }
+    .closeMenuBtn{
+        color: var(--orange);
+        position: absolute;
+        top:20px;
+        right:20px;
+        font-size:18px;
+        cursor: pointer;
+    }
+
+    .openMenu{
+        transform:translateX(0%)
+    }
+    .closeMenu{
+        transform:translateX(-100%)
+    }
+
+
+
+    .bigHead>.menuList>a{
+        display: block;
+    }
+    .closeMenuBtn{
+        display: block;
+    }
+    .bigHead>.menuList>a>.menu{
+        display: block;
+    }
+
+    .active, .bigHead>.menuList>a>.menu:hover{
+        background: var(--orange);
+        box-shadow: 0px 0px 5px var(--dark-shadow);
+        color:var(--white);
+    }
+
+    .heroImg{
+        height:50vh;
+    }
+    .mainSec>.imgText{
+        font-size: 36px;
+    }
+    .services{
+        grid-template-columns : 45vw 45vw;
+        grid-gap : 5vw;
+    }
+    .mainText>span{
+        font-size: 20px;
+    }
+    .serviceSec>.title, .aboutSec>.title, .contactSec>.title{
+        font-size:18px;
+    }
+    
+    .textSec>.title{
+        font-size: 16px;
+        margin-top: 100px;
+    }
+    .textSec>.firstWord{
+        font-size: 36px;
+    }
+    .textSec>.para{
+        font-size: 16px;
+    }
+
+    .serviceSec{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .card>.cardImg{
+        width:80%;
+        margin-left:10%;
+    }
+    .card>.cardTitle{
+        font-size: 16px;
+    }
+
+    .card>.cardBody{
+        font-size:14px;
+    }
+    
+    .parallax{
+        min-height:300px;
+        margin-bottom:80px;
+    }
+    .aboutSec>.parallax>.text>.para{
+        font-size: 14px;
+    }
+    
+    .form>.inputGrp>label{
+        font-size: 14px;
+    }
+
+    .form>.inputGrp>input, .form>.inputGrp>textarea{
+        font-size: 14px;
+    }
+
+    .form>.inputGrp>.submitBtn{
+        font-size: 16px;
+    }
+
+    .contactSec>.contact{
+        display: block;
+    }
+    .contactForm {
+        width:80vw;
+        margin:7vw;
+        box-shadow: none;
+    }
+
+    .contactMap{
+        width:100%;
+    }
+    .contactMap>.map{
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+    .footerSec{
+        display: block;
+    }
+    .footerSec>.footerContact, .footerSec>.footerMenu, .footerSec>.footerSocial{
+        width:100%;
+        display:block;
+        text-align: center;
+        margin-top:50px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .services{
+        grid-template-columns : 90vw;
+        grid-gap : 10vw;
+    } 
+    .contactForm {
+        width:80%;
+        margin: 5%;
+    }
+    .form>.inputGrp>label{
+        width:40%;
+    } 
+    .form>.inputGrp>input, .form>.inputGrp>textarea{
+        width:60%;
+    }
+}
